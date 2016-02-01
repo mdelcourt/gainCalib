@@ -1,0 +1,890 @@
+import FWCore.ParameterSet.Config as cms
+calibTreeList = cms.untracked.vstring()
+#TotalNumberOfEvent considered is 103497
+#run=260577 -->  NEvents=     103K
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/04E4B024-1681-E511-B92F-02163E01436A.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/08275B38-2A81-E511-8804-02163E0141E5.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0ABABF3E-1181-E511-81A7-02163E013974.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C5A6E2A-1181-E511-81E3-02163E01433D.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C9AD31F-1281-E511-9B6F-02163E01437E.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/10431BBD-1681-E511-B8AE-02163E014190.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/168E9E43-1181-E511-966E-02163E01182F.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/1C1F4E01-1281-E511-B1B4-02163E0135A1.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/203ED8FF-1581-E511-A24A-02163E0133E4.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22BEF489-1081-E511-8820-02163E01262C.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22D05E11-1281-E511-ADF6-02163E0142AF.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/24D5D601-1681-E511-B4AC-02163E0139A4.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A498209-1681-E511-AE25-02163E0121A4.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A714EE6-1781-E511-83E6-02163E0141B9.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2E19B647-1181-E511-805E-02163E0140E6.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/30866B00-1681-E511-8F0C-02163E0140E7.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3C13CE09-1681-E511-9053-02163E0133E8.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E1DC1FB-1581-E511-BD5E-02163E0139B5.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E53E40F-1281-E511-B1E9-02163E01393D.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4036E565-1281-E511-AB3A-02163E01380F.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/44F96A23-1281-E511-B84D-02163E0142C2.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A4D18DA-1781-E511-9B52-02163E0142A4.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A505DF1-1781-E511-8172-02163E01423E.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A87C34B-1181-E511-937B-02163E011E42.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CA0F549-1681-E511-A1B1-02163E011C70.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CAA2844-1681-E511-A4D0-02163E014608.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4E03CC1D-1681-E511-A811-02163E013396.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4EA0C3FC-1581-E511-86AB-02163E0139A6.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5460F300-1281-E511-902D-02163E014520.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/56673368-1181-E511-8553-02163E014206.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5667610D-1681-E511-8BA1-02163E013441.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/58322B20-1281-E511-A823-02163E014481.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5EE3520B-1681-E511-BD15-02163E0136CF.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/62BD2AF9-1781-E511-AECB-02163E014593.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/643C3B82-1181-E511-81E0-02163E013898.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6AD8E436-1B81-E511-A7D4-02163E014139.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6C3D0D02-1681-E511-A232-02163E01379F.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DC2CB0-1381-E511-A7C7-02163E0146A8.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DE46A2-1E81-E511-A045-02163E014143.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/745B0C50-1181-E511-9FE4-02163E011AB8.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/76D6DBF9-1581-E511-ADE2-02163E0138E3.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/787E79CF-1B81-E511-9406-02163E0143C1.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7AC0B0EE-1781-E511-A7BC-02163E01389E.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7CB19E13-1281-E511-B230-02163E014689.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/82088909-1681-E511-883B-02163E0133E9.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8C148EE7-1781-E511-AFCE-02163E014775.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8EE1634E-1181-E511-9DB3-02163E0141CF.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/96B355E6-1681-E511-B731-02163E013987.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/A61C7940-1181-E511-A80B-02163E01433D.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/AC8B0BF6-1781-E511-8820-02163E011A27.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACC70F1A-1881-E511-BB37-02163E01421E.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACE84816-1281-E511-A13B-02163E01377C.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B0EBD716-1281-E511-91C0-02163E0141C9.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2020530-1281-E511-A0F7-02163E011E02.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B29777E6-1781-E511-80EA-02163E0141C9.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2C8823D-1681-E511-BD75-02163E014651.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B612F806-1681-E511-B297-02163E0145CD.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B6507A45-1281-E511-AE2E-02163E013395.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8016902-1881-E511-8296-02163E0144AF.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8F42603-1181-E511-8656-02163E0143C3.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C49D9F0B-1281-E511-AD60-02163E01298F.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C8700C09-1281-E511-8AB1-02163E011A9B.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CA741DF1-1781-E511-95D5-02163E0140E7.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CEBB4A3E-1181-E511-A146-02163E01393C.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/D46A89F8-1781-E511-B13C-02163E013523.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/DEEEECE8-1781-E511-A074-02163E011AB8.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E624F31D-1281-E511-BCEC-02163E01466B.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E8ADCC23-1681-E511-8FE0-02163E0138E1.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EACC5B22-1281-E511-AAAE-02163E01414A.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC297436-1881-E511-8EA1-02163E01469D.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC82D5EA-1781-E511-A1E5-02163E011F2F.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EEA03D4B-1181-E511-8D76-02163E014366.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F059243B-2A81-E511-8588-02163E01214A.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F0AF592C-1281-E511-9184-02163E013898.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F886D37E-1181-E511-A98B-02163E0138E1.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FAF99EE7-1781-E511-BED7-02163E013710.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0BDF2B-1181-E511-B987-02163E011E42.root"])
+calibTreeList.extend(["/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0F4DFE-1781-E511-95B7-02163E012889.root"])
+Running: cmsRun Gains_Compute_cfg.py
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+CORAL/Services/ConnectionService Info Loading default plugin for coral::IAuthenticationService: COND/Services/RelationalAuthenticationService
+CORAL/Services/ConnectionService Info The connection pool automatic cleanup thread is currently explicitly disabled
+CORAL/Services/ConnectionService Info Loading default plugin for coral::IRelationalService: CORAL/Services/RelationalService
+PluginManager Info PluginManager creating CORAL/Services/RelationalService component
+PluginManager Info PluginManager needs to load CORAL/Services/RelationalService component
+PluginManager Info PluginManager loaded RelationalService library
+PluginManager Info PluginManager loaded CORAL/Services/RelationalService factory from RelationalService library
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "coral" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "frontier" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "mysql" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "oracle" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "sqlite" with native implementation
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "coral" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "frontier" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "mysql" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "oracle" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "sqlite" is native
+PluginManager Info PluginManager creating CORAL/RelationalPlugins/sqlite component
+PluginManager Info PluginManager needs to load CORAL/RelationalPlugins/sqlite component
+PluginManager Info PluginManager loaded SQLiteAccess library
+PluginManager Info PluginManager loaded CORAL/RelationalPlugins/sqlite factory from SQLiteAccess library
+CORAL/Services/ConnectionService Info New connection to service "Gains_Sqlite.db" with connectionID=5fc1464c-818e-11e5-899f-02163e010d1b has been connected
+CORAL/Services/ConnectionService Info New user session with sessionID=5fc166f4-818e-11e5-899f-02163e010d1b started on connectionID=5fc1464c-818e-11e5-899f-02163e010d1b to service "Gains_Sqlite.db" for user "" in update mode
+CORAL/Services/ConnectionService Info Disable connection sharing
+02-Nov-2015 19:20:46 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/04E4B024-1681-E511-B92F-02163E01436A.root
+02-Nov-2015 19:20:46 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/04E4B024-1681-E511-B92F-02163E01436A.root
+02-Nov-2015 19:20:47 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/04E4B024-1681-E511-B92F-02163E01436A.root
+02-Nov-2015 19:20:55 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/04E4B024-1681-E511-B92F-02163E01436A.root
+02-Nov-2015 19:20:55 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/08275B38-2A81-E511-8804-02163E0141E5.root
+02-Nov-2015 19:20:55 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/08275B38-2A81-E511-8804-02163E0141E5.root
+02-Nov-2015 19:20:56 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/08275B38-2A81-E511-8804-02163E0141E5.root
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH1F>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH1S>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH1D>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH2F>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH2S>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH2D>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH3F>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TProfile>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TProfile2D>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<double>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<Long64_t>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endLumi  02-Nov-2015 19:21:00 CET Run: 260577 Lumi: 43
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TString>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterLumi'
+  process name: ''
+
+%MSG
+02-Nov-2015 19:21:00 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/08275B38-2A81-E511-8804-02163E0141E5.root
+02-Nov-2015 19:21:00 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0ABABF3E-1181-E511-81A7-02163E013974.root
+02-Nov-2015 19:21:00 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0ABABF3E-1181-E511-81A7-02163E013974.root
+02-Nov-2015 19:21:01 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0ABABF3E-1181-E511-81A7-02163E013974.root
+02-Nov-2015 19:21:05 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0ABABF3E-1181-E511-81A7-02163E013974.root
+02-Nov-2015 19:21:05 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C5A6E2A-1181-E511-81E3-02163E01433D.root
+02-Nov-2015 19:21:05 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C5A6E2A-1181-E511-81E3-02163E01433D.root
+02-Nov-2015 19:21:05 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C5A6E2A-1181-E511-81E3-02163E01433D.root
+02-Nov-2015 19:21:08 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C5A6E2A-1181-E511-81E3-02163E01433D.root
+02-Nov-2015 19:21:08 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C9AD31F-1281-E511-9B6F-02163E01437E.root
+02-Nov-2015 19:21:08 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C9AD31F-1281-E511-9B6F-02163E01437E.root
+02-Nov-2015 19:21:08 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C9AD31F-1281-E511-9B6F-02163E01437E.root
+02-Nov-2015 19:21:11 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/0C9AD31F-1281-E511-9B6F-02163E01437E.root
+02-Nov-2015 19:21:11 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/10431BBD-1681-E511-B8AE-02163E014190.root
+02-Nov-2015 19:21:11 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/10431BBD-1681-E511-B8AE-02163E014190.root
+02-Nov-2015 19:21:11 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/10431BBD-1681-E511-B8AE-02163E014190.root
+02-Nov-2015 19:21:15 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/10431BBD-1681-E511-B8AE-02163E014190.root
+02-Nov-2015 19:21:15 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/168E9E43-1181-E511-966E-02163E01182F.root
+02-Nov-2015 19:21:15 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/168E9E43-1181-E511-966E-02163E01182F.root
+02-Nov-2015 19:21:15 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/168E9E43-1181-E511-966E-02163E01182F.root
+02-Nov-2015 19:21:18 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/168E9E43-1181-E511-966E-02163E01182F.root
+02-Nov-2015 19:21:18 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/1C1F4E01-1281-E511-B1B4-02163E0135A1.root
+02-Nov-2015 19:21:18 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/1C1F4E01-1281-E511-B1B4-02163E0135A1.root
+02-Nov-2015 19:21:18 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/1C1F4E01-1281-E511-B1B4-02163E0135A1.root
+02-Nov-2015 19:21:22 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/1C1F4E01-1281-E511-B1B4-02163E0135A1.root
+02-Nov-2015 19:21:22 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/203ED8FF-1581-E511-A24A-02163E0133E4.root
+02-Nov-2015 19:21:22 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/203ED8FF-1581-E511-A24A-02163E0133E4.root
+02-Nov-2015 19:21:23 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/203ED8FF-1581-E511-A24A-02163E0133E4.root
+02-Nov-2015 19:21:26 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/203ED8FF-1581-E511-A24A-02163E0133E4.root
+02-Nov-2015 19:21:26 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22BEF489-1081-E511-8820-02163E01262C.root
+02-Nov-2015 19:21:26 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22BEF489-1081-E511-8820-02163E01262C.root
+02-Nov-2015 19:21:27 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22BEF489-1081-E511-8820-02163E01262C.root
+02-Nov-2015 19:21:30 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22BEF489-1081-E511-8820-02163E01262C.root
+02-Nov-2015 19:21:30 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22D05E11-1281-E511-ADF6-02163E0142AF.root
+02-Nov-2015 19:21:30 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22D05E11-1281-E511-ADF6-02163E0142AF.root
+02-Nov-2015 19:21:30 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22D05E11-1281-E511-ADF6-02163E0142AF.root
+02-Nov-2015 19:21:34 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/22D05E11-1281-E511-ADF6-02163E0142AF.root
+02-Nov-2015 19:21:34 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/24D5D601-1681-E511-B4AC-02163E0139A4.root
+02-Nov-2015 19:21:34 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/24D5D601-1681-E511-B4AC-02163E0139A4.root
+02-Nov-2015 19:21:34 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/24D5D601-1681-E511-B4AC-02163E0139A4.root
+02-Nov-2015 19:21:38 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/24D5D601-1681-E511-B4AC-02163E0139A4.root
+02-Nov-2015 19:21:38 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A498209-1681-E511-AE25-02163E0121A4.root
+02-Nov-2015 19:21:38 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A498209-1681-E511-AE25-02163E0121A4.root
+02-Nov-2015 19:21:38 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A498209-1681-E511-AE25-02163E0121A4.root
+02-Nov-2015 19:21:41 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A498209-1681-E511-AE25-02163E0121A4.root
+02-Nov-2015 19:21:41 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A714EE6-1781-E511-83E6-02163E0141B9.root
+02-Nov-2015 19:21:41 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A714EE6-1781-E511-83E6-02163E0141B9.root
+02-Nov-2015 19:21:44 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2A714EE6-1781-E511-83E6-02163E0141B9.root
+02-Nov-2015 19:21:44 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2E19B647-1181-E511-805E-02163E0140E6.root
+02-Nov-2015 19:21:44 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2E19B647-1181-E511-805E-02163E0140E6.root
+02-Nov-2015 19:21:45 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2E19B647-1181-E511-805E-02163E0140E6.root
+02-Nov-2015 19:21:49 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/2E19B647-1181-E511-805E-02163E0140E6.root
+02-Nov-2015 19:21:49 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/30866B00-1681-E511-8F0C-02163E0140E7.root
+02-Nov-2015 19:21:49 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/30866B00-1681-E511-8F0C-02163E0140E7.root
+02-Nov-2015 19:21:49 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/30866B00-1681-E511-8F0C-02163E0140E7.root
+02-Nov-2015 19:21:53 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/30866B00-1681-E511-8F0C-02163E0140E7.root
+02-Nov-2015 19:21:53 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3C13CE09-1681-E511-9053-02163E0133E8.root
+02-Nov-2015 19:21:53 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3C13CE09-1681-E511-9053-02163E0133E8.root
+02-Nov-2015 19:21:53 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3C13CE09-1681-E511-9053-02163E0133E8.root
+02-Nov-2015 19:21:57 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3C13CE09-1681-E511-9053-02163E0133E8.root
+02-Nov-2015 19:21:57 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E1DC1FB-1581-E511-BD5E-02163E0139B5.root
+02-Nov-2015 19:21:57 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E1DC1FB-1581-E511-BD5E-02163E0139B5.root
+02-Nov-2015 19:21:58 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E1DC1FB-1581-E511-BD5E-02163E0139B5.root
+02-Nov-2015 19:22:02 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E1DC1FB-1581-E511-BD5E-02163E0139B5.root
+02-Nov-2015 19:22:02 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E53E40F-1281-E511-B1E9-02163E01393D.root
+02-Nov-2015 19:22:02 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E53E40F-1281-E511-B1E9-02163E01393D.root
+02-Nov-2015 19:22:02 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E53E40F-1281-E511-B1E9-02163E01393D.root
+02-Nov-2015 19:22:06 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/3E53E40F-1281-E511-B1E9-02163E01393D.root
+02-Nov-2015 19:22:06 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4036E565-1281-E511-AB3A-02163E01380F.root
+02-Nov-2015 19:22:06 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4036E565-1281-E511-AB3A-02163E01380F.root
+02-Nov-2015 19:22:07 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4036E565-1281-E511-AB3A-02163E01380F.root
+02-Nov-2015 19:22:09 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4036E565-1281-E511-AB3A-02163E01380F.root
+02-Nov-2015 19:22:09 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/44F96A23-1281-E511-B84D-02163E0142C2.root
+02-Nov-2015 19:22:09 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/44F96A23-1281-E511-B84D-02163E0142C2.root
+02-Nov-2015 19:22:10 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/44F96A23-1281-E511-B84D-02163E0142C2.root
+02-Nov-2015 19:22:12 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/44F96A23-1281-E511-B84D-02163E0142C2.root
+02-Nov-2015 19:22:12 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A4D18DA-1781-E511-9B52-02163E0142A4.root
+02-Nov-2015 19:22:15 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A4D18DA-1781-E511-9B52-02163E0142A4.root
+02-Nov-2015 19:22:20 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A4D18DA-1781-E511-9B52-02163E0142A4.root
+02-Nov-2015 19:22:20 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A505DF1-1781-E511-8172-02163E01423E.root
+02-Nov-2015 19:22:20 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A505DF1-1781-E511-8172-02163E01423E.root
+02-Nov-2015 19:22:24 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A505DF1-1781-E511-8172-02163E01423E.root
+02-Nov-2015 19:22:24 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A87C34B-1181-E511-937B-02163E011E42.root
+02-Nov-2015 19:22:24 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A87C34B-1181-E511-937B-02163E011E42.root
+02-Nov-2015 19:22:25 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A87C34B-1181-E511-937B-02163E011E42.root
+02-Nov-2015 19:22:29 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4A87C34B-1181-E511-937B-02163E011E42.root
+02-Nov-2015 19:22:29 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CA0F549-1681-E511-A1B1-02163E011C70.root
+02-Nov-2015 19:22:29 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CA0F549-1681-E511-A1B1-02163E011C70.root
+02-Nov-2015 19:22:29 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CA0F549-1681-E511-A1B1-02163E011C70.root
+02-Nov-2015 19:22:33 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CA0F549-1681-E511-A1B1-02163E011C70.root
+02-Nov-2015 19:22:33 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CAA2844-1681-E511-A4D0-02163E014608.root
+02-Nov-2015 19:22:33 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CAA2844-1681-E511-A4D0-02163E014608.root
+02-Nov-2015 19:22:33 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CAA2844-1681-E511-A4D0-02163E014608.root
+02-Nov-2015 19:22:36 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4CAA2844-1681-E511-A4D0-02163E014608.root
+02-Nov-2015 19:22:36 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4E03CC1D-1681-E511-A811-02163E013396.root
+02-Nov-2015 19:22:36 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4E03CC1D-1681-E511-A811-02163E013396.root
+02-Nov-2015 19:22:36 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4E03CC1D-1681-E511-A811-02163E013396.root
+02-Nov-2015 19:22:40 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4E03CC1D-1681-E511-A811-02163E013396.root
+02-Nov-2015 19:22:40 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4EA0C3FC-1581-E511-86AB-02163E0139A6.root
+02-Nov-2015 19:22:40 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4EA0C3FC-1581-E511-86AB-02163E0139A6.root
+02-Nov-2015 19:22:40 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4EA0C3FC-1581-E511-86AB-02163E0139A6.root
+02-Nov-2015 19:22:43 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/4EA0C3FC-1581-E511-86AB-02163E0139A6.root
+02-Nov-2015 19:22:43 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5460F300-1281-E511-902D-02163E014520.root
+02-Nov-2015 19:22:43 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5460F300-1281-E511-902D-02163E014520.root
+02-Nov-2015 19:22:44 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5460F300-1281-E511-902D-02163E014520.root
+02-Nov-2015 19:22:47 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5460F300-1281-E511-902D-02163E014520.root
+02-Nov-2015 19:22:47 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/56673368-1181-E511-8553-02163E014206.root
+02-Nov-2015 19:22:47 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/56673368-1181-E511-8553-02163E014206.root
+02-Nov-2015 19:22:48 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/56673368-1181-E511-8553-02163E014206.root
+02-Nov-2015 19:22:52 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/56673368-1181-E511-8553-02163E014206.root
+02-Nov-2015 19:22:52 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5667610D-1681-E511-8BA1-02163E013441.root
+02-Nov-2015 19:22:52 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5667610D-1681-E511-8BA1-02163E013441.root
+02-Nov-2015 19:22:52 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5667610D-1681-E511-8BA1-02163E013441.root
+02-Nov-2015 19:22:56 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5667610D-1681-E511-8BA1-02163E013441.root
+02-Nov-2015 19:22:56 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/58322B20-1281-E511-A823-02163E014481.root
+02-Nov-2015 19:22:56 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/58322B20-1281-E511-A823-02163E014481.root
+02-Nov-2015 19:22:56 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/58322B20-1281-E511-A823-02163E014481.root
+02-Nov-2015 19:22:59 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/58322B20-1281-E511-A823-02163E014481.root
+02-Nov-2015 19:22:59 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5EE3520B-1681-E511-BD15-02163E0136CF.root
+02-Nov-2015 19:22:59 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5EE3520B-1681-E511-BD15-02163E0136CF.root
+02-Nov-2015 19:22:59 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5EE3520B-1681-E511-BD15-02163E0136CF.root
+02-Nov-2015 19:23:02 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/5EE3520B-1681-E511-BD15-02163E0136CF.root
+02-Nov-2015 19:23:02 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/62BD2AF9-1781-E511-AECB-02163E014593.root
+02-Nov-2015 19:23:03 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/62BD2AF9-1781-E511-AECB-02163E014593.root
+02-Nov-2015 19:23:07 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/62BD2AF9-1781-E511-AECB-02163E014593.root
+02-Nov-2015 19:23:07 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/643C3B82-1181-E511-81E0-02163E013898.root
+02-Nov-2015 19:23:07 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/643C3B82-1181-E511-81E0-02163E013898.root
+02-Nov-2015 19:23:07 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/643C3B82-1181-E511-81E0-02163E013898.root
+02-Nov-2015 19:23:11 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/643C3B82-1181-E511-81E0-02163E013898.root
+02-Nov-2015 19:23:11 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6AD8E436-1B81-E511-A7D4-02163E014139.root
+02-Nov-2015 19:23:11 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6AD8E436-1B81-E511-A7D4-02163E014139.root
+02-Nov-2015 19:23:12 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6AD8E436-1B81-E511-A7D4-02163E014139.root
+02-Nov-2015 19:23:15 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6AD8E436-1B81-E511-A7D4-02163E014139.root
+02-Nov-2015 19:23:15 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6C3D0D02-1681-E511-A232-02163E01379F.root
+02-Nov-2015 19:23:15 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6C3D0D02-1681-E511-A232-02163E01379F.root
+02-Nov-2015 19:23:15 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6C3D0D02-1681-E511-A232-02163E01379F.root
+02-Nov-2015 19:23:18 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/6C3D0D02-1681-E511-A232-02163E01379F.root
+02-Nov-2015 19:23:18 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DC2CB0-1381-E511-A7C7-02163E0146A8.root
+02-Nov-2015 19:23:18 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DC2CB0-1381-E511-A7C7-02163E0146A8.root
+02-Nov-2015 19:23:18 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DC2CB0-1381-E511-A7C7-02163E0146A8.root
+02-Nov-2015 19:23:23 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DC2CB0-1381-E511-A7C7-02163E0146A8.root
+02-Nov-2015 19:23:23 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DE46A2-1E81-E511-A045-02163E014143.root
+02-Nov-2015 19:23:23 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DE46A2-1E81-E511-A045-02163E014143.root
+02-Nov-2015 19:23:23 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DE46A2-1E81-E511-A045-02163E014143.root
+02-Nov-2015 19:23:26 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/70DE46A2-1E81-E511-A045-02163E014143.root
+02-Nov-2015 19:23:26 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/745B0C50-1181-E511-9FE4-02163E011AB8.root
+02-Nov-2015 19:23:26 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/745B0C50-1181-E511-9FE4-02163E011AB8.root
+02-Nov-2015 19:23:26 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/745B0C50-1181-E511-9FE4-02163E011AB8.root
+02-Nov-2015 19:23:29 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/745B0C50-1181-E511-9FE4-02163E011AB8.root
+02-Nov-2015 19:23:29 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/76D6DBF9-1581-E511-ADE2-02163E0138E3.root
+02-Nov-2015 19:23:29 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/76D6DBF9-1581-E511-ADE2-02163E0138E3.root
+02-Nov-2015 19:23:29 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/76D6DBF9-1581-E511-ADE2-02163E0138E3.root
+02-Nov-2015 19:23:34 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/76D6DBF9-1581-E511-ADE2-02163E0138E3.root
+02-Nov-2015 19:23:34 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/787E79CF-1B81-E511-9406-02163E0143C1.root
+02-Nov-2015 19:23:34 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/787E79CF-1B81-E511-9406-02163E0143C1.root
+02-Nov-2015 19:23:34 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/787E79CF-1B81-E511-9406-02163E0143C1.root
+02-Nov-2015 19:23:38 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/787E79CF-1B81-E511-9406-02163E0143C1.root
+02-Nov-2015 19:23:38 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7AC0B0EE-1781-E511-A7BC-02163E01389E.root
+02-Nov-2015 19:23:38 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7AC0B0EE-1781-E511-A7BC-02163E01389E.root
+02-Nov-2015 19:23:42 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7AC0B0EE-1781-E511-A7BC-02163E01389E.root
+02-Nov-2015 19:23:42 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7CB19E13-1281-E511-B230-02163E014689.root
+02-Nov-2015 19:23:42 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7CB19E13-1281-E511-B230-02163E014689.root
+02-Nov-2015 19:23:42 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7CB19E13-1281-E511-B230-02163E014689.root
+02-Nov-2015 19:23:46 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/7CB19E13-1281-E511-B230-02163E014689.root
+02-Nov-2015 19:23:46 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/82088909-1681-E511-883B-02163E0133E9.root
+02-Nov-2015 19:23:46 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/82088909-1681-E511-883B-02163E0133E9.root
+02-Nov-2015 19:23:46 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/82088909-1681-E511-883B-02163E0133E9.root
+02-Nov-2015 19:23:49 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/82088909-1681-E511-883B-02163E0133E9.root
+02-Nov-2015 19:23:49 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8C148EE7-1781-E511-AFCE-02163E014775.root
+02-Nov-2015 19:23:50 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8C148EE7-1781-E511-AFCE-02163E014775.root
+02-Nov-2015 19:23:53 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8C148EE7-1781-E511-AFCE-02163E014775.root
+02-Nov-2015 19:23:53 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8EE1634E-1181-E511-9DB3-02163E0141CF.root
+02-Nov-2015 19:23:53 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8EE1634E-1181-E511-9DB3-02163E0141CF.root
+02-Nov-2015 19:23:53 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8EE1634E-1181-E511-9DB3-02163E0141CF.root
+02-Nov-2015 19:23:56 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/8EE1634E-1181-E511-9DB3-02163E0141CF.root
+02-Nov-2015 19:23:56 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/96B355E6-1681-E511-B731-02163E013987.root
+02-Nov-2015 19:23:56 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/96B355E6-1681-E511-B731-02163E013987.root
+02-Nov-2015 19:23:56 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/96B355E6-1681-E511-B731-02163E013987.root
+02-Nov-2015 19:23:59 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/96B355E6-1681-E511-B731-02163E013987.root
+02-Nov-2015 19:23:59 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/A61C7940-1181-E511-A80B-02163E01433D.root
+02-Nov-2015 19:23:59 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/A61C7940-1181-E511-A80B-02163E01433D.root
+02-Nov-2015 19:23:59 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/A61C7940-1181-E511-A80B-02163E01433D.root
+02-Nov-2015 19:24:02 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/A61C7940-1181-E511-A80B-02163E01433D.root
+02-Nov-2015 19:24:02 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/AC8B0BF6-1781-E511-8820-02163E011A27.root
+02-Nov-2015 19:24:02 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/AC8B0BF6-1781-E511-8820-02163E011A27.root
+02-Nov-2015 19:24:02 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/AC8B0BF6-1781-E511-8820-02163E011A27.root
+02-Nov-2015 19:24:05 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/AC8B0BF6-1781-E511-8820-02163E011A27.root
+02-Nov-2015 19:24:05 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACC70F1A-1881-E511-BB37-02163E01421E.root
+02-Nov-2015 19:24:05 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACC70F1A-1881-E511-BB37-02163E01421E.root
+02-Nov-2015 19:24:05 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACC70F1A-1881-E511-BB37-02163E01421E.root
+02-Nov-2015 19:24:08 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACC70F1A-1881-E511-BB37-02163E01421E.root
+02-Nov-2015 19:24:08 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACE84816-1281-E511-A13B-02163E01377C.root
+02-Nov-2015 19:24:08 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACE84816-1281-E511-A13B-02163E01377C.root
+02-Nov-2015 19:24:09 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACE84816-1281-E511-A13B-02163E01377C.root
+02-Nov-2015 19:24:13 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/ACE84816-1281-E511-A13B-02163E01377C.root
+02-Nov-2015 19:24:13 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B0EBD716-1281-E511-91C0-02163E0141C9.root
+02-Nov-2015 19:24:13 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B0EBD716-1281-E511-91C0-02163E0141C9.root
+02-Nov-2015 19:24:13 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B0EBD716-1281-E511-91C0-02163E0141C9.root
+02-Nov-2015 19:24:17 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B0EBD716-1281-E511-91C0-02163E0141C9.root
+02-Nov-2015 19:24:17 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2020530-1281-E511-A0F7-02163E011E02.root
+02-Nov-2015 19:24:17 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2020530-1281-E511-A0F7-02163E011E02.root
+02-Nov-2015 19:24:19 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2020530-1281-E511-A0F7-02163E011E02.root
+02-Nov-2015 19:24:24 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2020530-1281-E511-A0F7-02163E011E02.root
+02-Nov-2015 19:24:24 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B29777E6-1781-E511-80EA-02163E0141C9.root
+02-Nov-2015 19:24:25 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B29777E6-1781-E511-80EA-02163E0141C9.root
+02-Nov-2015 19:24:29 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B29777E6-1781-E511-80EA-02163E0141C9.root
+02-Nov-2015 19:24:29 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2C8823D-1681-E511-BD75-02163E014651.root
+02-Nov-2015 19:24:29 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2C8823D-1681-E511-BD75-02163E014651.root
+02-Nov-2015 19:24:30 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2C8823D-1681-E511-BD75-02163E014651.root
+02-Nov-2015 19:24:33 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B2C8823D-1681-E511-BD75-02163E014651.root
+02-Nov-2015 19:24:33 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B612F806-1681-E511-B297-02163E0145CD.root
+02-Nov-2015 19:24:33 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B612F806-1681-E511-B297-02163E0145CD.root
+02-Nov-2015 19:24:33 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B612F806-1681-E511-B297-02163E0145CD.root
+02-Nov-2015 19:24:37 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B612F806-1681-E511-B297-02163E0145CD.root
+02-Nov-2015 19:24:37 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B6507A45-1281-E511-AE2E-02163E013395.root
+02-Nov-2015 19:24:37 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B6507A45-1281-E511-AE2E-02163E013395.root
+02-Nov-2015 19:24:37 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B6507A45-1281-E511-AE2E-02163E013395.root
+02-Nov-2015 19:24:40 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B6507A45-1281-E511-AE2E-02163E013395.root
+02-Nov-2015 19:24:40 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8016902-1881-E511-8296-02163E0144AF.root
+02-Nov-2015 19:24:40 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8016902-1881-E511-8296-02163E0144AF.root
+02-Nov-2015 19:24:43 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8016902-1881-E511-8296-02163E0144AF.root
+02-Nov-2015 19:24:43 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8F42603-1181-E511-8656-02163E0143C3.root
+02-Nov-2015 19:24:43 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8F42603-1181-E511-8656-02163E0143C3.root
+02-Nov-2015 19:24:43 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8F42603-1181-E511-8656-02163E0143C3.root
+02-Nov-2015 19:24:46 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/B8F42603-1181-E511-8656-02163E0143C3.root
+02-Nov-2015 19:24:46 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C49D9F0B-1281-E511-AD60-02163E01298F.root
+02-Nov-2015 19:24:47 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C49D9F0B-1281-E511-AD60-02163E01298F.root
+02-Nov-2015 19:24:47 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C49D9F0B-1281-E511-AD60-02163E01298F.root
+02-Nov-2015 19:24:51 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C49D9F0B-1281-E511-AD60-02163E01298F.root
+02-Nov-2015 19:24:51 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C8700C09-1281-E511-8AB1-02163E011A9B.root
+02-Nov-2015 19:24:51 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C8700C09-1281-E511-8AB1-02163E011A9B.root
+02-Nov-2015 19:24:51 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C8700C09-1281-E511-8AB1-02163E011A9B.root
+02-Nov-2015 19:24:54 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/C8700C09-1281-E511-8AB1-02163E011A9B.root
+02-Nov-2015 19:24:54 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CA741DF1-1781-E511-95D5-02163E0140E7.root
+02-Nov-2015 19:24:54 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CA741DF1-1781-E511-95D5-02163E0140E7.root
+02-Nov-2015 19:24:57 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CA741DF1-1781-E511-95D5-02163E0140E7.root
+02-Nov-2015 19:24:57 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CEBB4A3E-1181-E511-A146-02163E01393C.root
+02-Nov-2015 19:24:57 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CEBB4A3E-1181-E511-A146-02163E01393C.root
+02-Nov-2015 19:24:57 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CEBB4A3E-1181-E511-A146-02163E01393C.root
+02-Nov-2015 19:25:02 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/CEBB4A3E-1181-E511-A146-02163E01393C.root
+02-Nov-2015 19:25:02 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/D46A89F8-1781-E511-B13C-02163E013523.root
+02-Nov-2015 19:25:02 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/D46A89F8-1781-E511-B13C-02163E013523.root
+02-Nov-2015 19:25:05 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/D46A89F8-1781-E511-B13C-02163E013523.root
+02-Nov-2015 19:25:05 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/DEEEECE8-1781-E511-A074-02163E011AB8.root
+02-Nov-2015 19:25:05 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/DEEEECE8-1781-E511-A074-02163E011AB8.root
+02-Nov-2015 19:25:09 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/DEEEECE8-1781-E511-A074-02163E011AB8.root
+02-Nov-2015 19:25:09 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E624F31D-1281-E511-BCEC-02163E01466B.root
+02-Nov-2015 19:25:09 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E624F31D-1281-E511-BCEC-02163E01466B.root
+02-Nov-2015 19:25:09 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E624F31D-1281-E511-BCEC-02163E01466B.root
+02-Nov-2015 19:25:13 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E624F31D-1281-E511-BCEC-02163E01466B.root
+02-Nov-2015 19:25:13 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E8ADCC23-1681-E511-8FE0-02163E0138E1.root
+02-Nov-2015 19:25:13 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E8ADCC23-1681-E511-8FE0-02163E0138E1.root
+02-Nov-2015 19:25:13 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E8ADCC23-1681-E511-8FE0-02163E0138E1.root
+02-Nov-2015 19:25:17 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/E8ADCC23-1681-E511-8FE0-02163E0138E1.root
+02-Nov-2015 19:25:17 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EACC5B22-1281-E511-AAAE-02163E01414A.root
+02-Nov-2015 19:25:17 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EACC5B22-1281-E511-AAAE-02163E01414A.root
+02-Nov-2015 19:25:18 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EACC5B22-1281-E511-AAAE-02163E01414A.root
+02-Nov-2015 19:25:22 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EACC5B22-1281-E511-AAAE-02163E01414A.root
+02-Nov-2015 19:25:22 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC297436-1881-E511-8EA1-02163E01469D.root
+02-Nov-2015 19:25:22 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC297436-1881-E511-8EA1-02163E01469D.root
+02-Nov-2015 19:25:22 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC297436-1881-E511-8EA1-02163E01469D.root
+02-Nov-2015 19:25:26 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC297436-1881-E511-8EA1-02163E01469D.root
+02-Nov-2015 19:25:26 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC82D5EA-1781-E511-A1E5-02163E011F2F.root
+02-Nov-2015 19:25:26 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC82D5EA-1781-E511-A1E5-02163E011F2F.root
+02-Nov-2015 19:25:29 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EC82D5EA-1781-E511-A1E5-02163E011F2F.root
+02-Nov-2015 19:25:29 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EEA03D4B-1181-E511-8D76-02163E014366.root
+02-Nov-2015 19:25:29 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EEA03D4B-1181-E511-8D76-02163E014366.root
+02-Nov-2015 19:25:29 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EEA03D4B-1181-E511-8D76-02163E014366.root
+02-Nov-2015 19:25:32 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/EEA03D4B-1181-E511-8D76-02163E014366.root
+02-Nov-2015 19:25:32 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F059243B-2A81-E511-8588-02163E01214A.root
+02-Nov-2015 19:25:32 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F059243B-2A81-E511-8588-02163E01214A.root
+02-Nov-2015 19:25:37 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F059243B-2A81-E511-8588-02163E01214A.root
+02-Nov-2015 19:25:53 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F059243B-2A81-E511-8588-02163E01214A.root
+02-Nov-2015 19:25:53 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F0AF592C-1281-E511-9184-02163E013898.root
+02-Nov-2015 19:25:53 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F0AF592C-1281-E511-9184-02163E013898.root
+02-Nov-2015 19:25:53 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F0AF592C-1281-E511-9184-02163E013898.root
+02-Nov-2015 19:25:57 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F0AF592C-1281-E511-9184-02163E013898.root
+02-Nov-2015 19:25:57 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F886D37E-1181-E511-A98B-02163E0138E1.root
+02-Nov-2015 19:25:57 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F886D37E-1181-E511-A98B-02163E0138E1.root
+02-Nov-2015 19:25:57 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F886D37E-1181-E511-A98B-02163E0138E1.root
+02-Nov-2015 19:26:01 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/F886D37E-1181-E511-A98B-02163E0138E1.root
+02-Nov-2015 19:26:01 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FAF99EE7-1781-E511-BED7-02163E013710.root
+02-Nov-2015 19:26:01 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FAF99EE7-1781-E511-BED7-02163E013710.root
+02-Nov-2015 19:26:04 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FAF99EE7-1781-E511-BED7-02163E013710.root
+02-Nov-2015 19:26:04 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0BDF2B-1181-E511-B987-02163E011E42.root
+02-Nov-2015 19:26:04 CET  Fallback request to file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0BDF2B-1181-E511-B987-02163E011E42.root
+02-Nov-2015 19:26:05 CET  Successfully opened file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0BDF2B-1181-E511-B987-02163E011E42.root
+02-Nov-2015 19:26:08 CET  Closed file root://xrootd-cms.infn.it//store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0BDF2B-1181-E511-B987-02163E011E42.root
+02-Nov-2015 19:26:08 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0F4DFE-1781-E511-95B7-02163E012889.root
+02-Nov-2015 19:26:08 CET  Successfully opened file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0F4DFE-1781-E511-95B7-02163E012889.root
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:11 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH1F>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:11 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH1S>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:11 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH1D>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:11 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH2F>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH2S>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH2D>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TH3F>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TProfile>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TProfile2D>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<double>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<Long64_t>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+%MSG-e GetByLabelWithoutRegistration:  EDMtoMEConverter:EDMtoMEConvert@endRun  02-Nov-2015 19:26:13 CET End Run: 260577
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: MEtoEDM<TString>
+  module label: MEtoEDMConvertSiStripGains
+  product instance name: 'MEtoEDMConverterRun'
+  process name: ''
+
+%MSG
+02-Nov-2015 19:26:18 CET  Closed file root://eoscms.cern.ch//eos/cms/store/express/Run2015D/StreamExpress/ALCAPROMPT/PromptCalibProdSiStripGains-Express-v4/000/260/577/00000/FC0F4DFE-1781-E511-95B7-02163E012889.root
+Progressing Bar              :0%       20%       40%       60%       80%       100%
+Fitting Charge Distribution  :...................................................
+NEvents   = 0
+NTracks   = 0
+NClustersPixel = 0
+NClustersStrip = 42246942
+Number of Pixel Dets = 15840
+Number of Strip APVs = 72784
+GoodFits = 66914 BadFits = 3384 ratio = 95.186207%   (MASKED=2486)
+402673324 | 0 : 0.953392 --> 0.903617  (946.000000)
+402673324 | 1 : 0.948187 --> 0.915890  (920.000000)
+402673324 | 2 : 0.869713 --> 0.840048  (1022.000000)
+402673324 | 3 : 0.873386 --> 0.776802  (944.000000)
+loaded
+
+Processing KeepOnlyGain.C+...
+...................................................
+loaded
+Compilling with the following arguments: cd $BuildDir ; g++ -c $Opt -pipe -m64 -std=c++11 -Wno-deprecated-declarations -Wno-deprecated -Wno-unused-local-typedefs -Wno-attributes  -fPIC -Wno-deprecated-declarations -D__ROOFIT_NOBANNER -pthread $IncludePath $SourceFiles ; g++ $ObjectFiles -shared -Wl,-soname,$LibName.so -m64 -O2 -DNDEBUG  -Wl,--no-undefined -Wl,--as-needed $LinkedLibs -o $SharedLib
+Progressing Bar              :0%       20%       40%       60%       80%       100%
+Looping on the Tree          :...................................................
+Looping on the Tree          :...................................................
+preparing the palette
+tempfilename Pictures/Gains_TKMap_Gain_MECH.coor
+created palette with 968 colors
+printing Pictures/Gains_TKMap_Gain_MECH.png
+Executing rm Pictures/Gains_TKMap_Gain_MECH.coor
+Looping on the Tree          :...................................................
+Looping on the Tree          :...................................................
+preparing the palette
+tempfilename Pictures/Gains_TKMap_NoCluster_MECH.coor
+created palette with 254 colors
+printing Pictures/Gains_TKMap_NoCluster_MECH.png
+Executing rm Pictures/Gains_TKMap_NoCluster_MECH.coor
+Looping on the Tree          :...................................................
+Looping on the Tree          :...................................................
+preparing the palette
+tempfilename Pictures/Gains_TKMap_NoGain_MECH.coor
+created palette with 254 colors
+printing Pictures/Gains_TKMap_NoGain_MECH.png
+Executing rm Pictures/Gains_TKMap_NoGain_MECH.coor
+Looping on the Tree          :...................................................
+preparing the palette
+tempfilename Pictures/Gains_TKMap_LowGain_MECH.coor
+created palette with 254 colors
+printing Pictures/Gains_TKMap_LowGain_MECH.png
+Executing rm Pictures/Gains_TKMap_LowGain_MECH.coor
+Looping on the Tree          :...................................................
+preparing the palette
+tempfilename Pictures/Gains_TKMap_GainChange_MECH.coor
+created palette with 254 colors
+printing Pictures/Gains_TKMap_GainChange_MECH.png
+Executing rm Pictures/Gains_TKMap_GainChange_MECH.coor
+Looping on the Tree          :...................................................
+preparing the palette
+tempfilename Pictures/Gains_TKMap_GainError_MECH.coor
+created palette with 930 colors
+printing Pictures/Gains_TKMap_GainError_MECH.png
+Executing rm Pictures/Gains_TKMap_GainError_MECH.coor
+Looping on the Tree          :...................................................
+preparing the palette
+tempfilename Pictures/Gains_TKMap_GainRatio_MECH.coor
+created palette with 932 colors
+printing Pictures/Gains_TKMap_GainRatio_MECH.png
+Executing rm Pictures/Gains_TKMap_GainRatio_MECH.coor
+BUG: SiStripCalibValidation/APVGain
+[?1034hfirstRun = 260577
+lastRun  = -1
+publish  = False
+usePCL   = True
+Get the list of PCL output files from DAS
+['258287']
+['258312']
+['258313']
+['258320']
+['258335']
+['258403']
+['258423']
+['258425']
+['258426']
+['258427']
+['258428']
+['258432']
+['258434']
+['258440']
+['258443']
+['258444']
+['258445']
+['258446']
+['258448']
+['258480']
+['258482']
+['258486']
+['258616']
+['258629']
+['258655']
+['258656']
+['258682']
+['258692']
+['258694']
+['258702']
+['258703']
+['258705']
+['258706']
+['258712']
+['258713']
+['258714']
+['258741']
+['258742']
+['258745']
+['258749']
+['258750']
+['258760']
+['258763']
+['258765']
+['258767']
+['258771']
+['258776']
+['258780']
+['258788']
+['258798']
+['258810']
+['258815']
+['258846']
+['258847']
+['258848']
+['258855']
+['258856']
+['258858']
+['258859']
+['258860']
+['258863']
+['258870']
+['258875']
+['258876']
+['258877']
+['258878']
+['258879']
+['258901']
+['258922']
+['258930']
+['258934']
+['258949']
+['258957']
+['258958']
+['258959']
+['258961']
+['258964']
+['258967']
+['258973']
+['258974']
+['258975']
+['258978']
+['258979']
+['258981']
+['259109']
+['259113']
+['259114']
+['259132']
+['259133']
+['259145']
+['259147']
+['259148']
+['259149']
+['259150']
+['259152']
+['259157']
+['259158']
+['259159']
+['259161']
+['259162']
+['259163']
+['259164']
+['259167']
+['259180']
+['259190']
+['259191']
+['259192']
+['259193']
+['259195']
+['259198']
+['259199']
+['259200']
+['259201']
+['259202']
+['259205']
+['259207']
+['259208']
+['259214']
+['259226']
+['259229']
+['259231']
+['259234']
+['259236']
+['259237']
+['259243']
+['259324']
+['259341']
+['259347']
+['259350']
+['259351']
+['259352']
+['259353']
+['259354']
+['259384']
+['259385']
+['259388']
+['259392']
+['259397']
+['259399']
+['259405']
+['259407']
+['259408']
+['259412']
+['259429']
+['259431']
+['259457']
+['259458']
+['259464']
+['259478']
+['259526']
+['259575']
+['259626']
+['259636']
+['259637']
+['259681']
+['259682']
+['259683']
+['259685']
+['259686']
+['259714']
+['259721']
+['259809']
+['259810']
+['259811']
+['259812']
+['259813']
+['259817']
+['259818']
+['259820']
+['259821']
+['259822']
+['259857']
+['259861']
+['259862']
+['259884']
+['259890']
+['259891']
+['260335']
+['260340']
+['260344']
+['260347']
+['260348']
+['260351']
+['260366']
+['260373']
+['260403']
+['260422']
+['260423']
+['260424']
+['260425']
+['260426']
+['260427']
+['260431']
+['260433']
+['260439']
+['260510']
+['260527']
+['260528']
+['260532']
+['260533']
+['260534']
+['260536']
+['260538']
+['260540']
+['260541']
+['260566']
+['260568']
+['260570']
+['260571']
+['260575']
+['260576']
+['260577']
+Checking number of events in run 260577
+Current number of events to process is 103497
+['260581']
+Checking number of events in run 260581
+['260583']
+Checking number of events in run 260583
+['260591']
+Checking number of events in run 260591
+RunRange=[260577,260591] --> NEvents=103K
